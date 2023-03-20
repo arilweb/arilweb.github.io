@@ -9,6 +9,8 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <link rel="stylesheet" href="path/to/plyr.css" />
+
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -23,6 +25,7 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -437,7 +440,7 @@
                                     <div class="swiper-wrapper align-items-center">
 
                                         <div class="swiper-slide">
-                                            <video controls>
+                                            <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
                                                 <source src="assets/vid/portofolio-detail/1.mp4" type="video/mp4"> </video>
                                             <div class="portfolio-links">
                                                 <a href="assets/vid/portofolio-detail/1.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Present 1"><i class="bx bx-plus"></i></a>
@@ -712,6 +715,7 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
+    <script src="https://cdn.plyr.io/3.7.7/plyr.polyfilled.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
