@@ -449,7 +449,7 @@
                                         </div>
 
                                         <div class="swiper-slide">
-                                            <video controls>
+                                            <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
                                                 <source src="assets/vid/portofolio-detail/2.mp4" type="video/mp4"> </video>
                                             <div class="portfolio-links">
                                                 <a href="assets/vid/portofolio-detail/2.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Present 2"><i class="bx bx-plus"></i></a>
@@ -458,7 +458,7 @@
                                         </div>
 
                                         <div class="swiper-slide">
-                                            <video controls>
+                                            <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
                                                 <source src="assets/vid/portofolio-detail/3.mp4" type="video/mp4"> </video>
                                             <div class="portfolio-links">
                                                 <a href="assets/vid/portofolio-detail/3.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Present 3"><i class="bx bx-plus"></i></a>
@@ -715,7 +715,6 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="https://cdn.plyr.io/3.7.7/plyr.polyfilled.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -728,6 +727,8 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    
+    <script src="https://cdn.plyr.io/3.7.7/plyr.polyfilled.js"></script>
 
 </body>
 
